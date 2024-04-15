@@ -1,6 +1,6 @@
 [{<<"kvs_service">>,
   {git,"https://github.com/joq62/kvs_service.git",
-       {ref,"76c66376e84f1936117f35b95baec68666009c5e"}},
+       {ref,"3d8a9b0883738805c6ca0f95a36fb9e38df68065"}},
   0},
  {<<"log_service">>,
   {git,"https://github.com/joq62/log_service.git",
