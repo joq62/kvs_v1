@@ -13,16 +13,11 @@
  
 -export([start/0]).
 
--include("main.hrl").
-
 
 %% --------------------------------------------------------------------
 %% Include files
 %% --------------------------------------------------------------------
 
-
--define(DeploymentRepoDir,"deployment_specs_test").
--define(DeploymentGit,"https://github.com/joq62/deployment_specs_test.git").
 
 %% --------------------------------------------------------------------
 %% Function: available_hosts()
