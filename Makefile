@@ -8,6 +8,7 @@ all:
 	rm -rf inventory;
 	rm -rf host_specs catalog application_dir deployment_specs catalog_specs;
 	rm -rf doc;
+	rm -rf Mnesia.*;
 	rm -rf test_ebin;
 	#INFO: Deleting tilde files and beams
 	rm -rf *~ */*~ */*/*~;
@@ -41,6 +42,7 @@ build:
 	rm -rf inventory;
 	rm -rf host_specs catalog application_dir deployment_specs catalog_specs;
 	rm -rf doc;
+	rm -rf Mnesia.*;
 	rm -rf test_ebin;
 	#INFO: Deleting tilde files and beams
 	rm -rf *~ */*~ */*/*~;
@@ -70,6 +72,7 @@ clean:
 	rm -rf log resource_discovery etcd;
 	rm -rf inventory;
 	rm -rf host_specs catalog application_dir deployment_specs catalog_specs;
+	rm -rf Mnesia.*;
 	rm -rf test_ebin;
 	#INFO: Deleting tilde files and beams
 	rm -rf *~ */*~ */*/*~;
@@ -94,6 +97,7 @@ eunit:
 	rm -rf inventory;
 	rm -rf host_specs catalog application_dir deployment_specs catalog_specs;
 	rm -rf doc;
+	rm -rf Mnesia.*;
 	rm -rf test_ebin;
 	#INFO: Deleting tilde files and beams
 	rm -rf src/*.beam src/*/*.beam;
